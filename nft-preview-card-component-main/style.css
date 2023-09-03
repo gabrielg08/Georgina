@@ -1,0 +1,139 @@
+:root{
+    --very-dark-bluG: hsl(217,54%,11%);
+    --very-dark-bluE: hsl(216,50%,16%);
+    --Very-dark-bluT: hsl(215, 32%, 27%);
+    --Soft-blue-SB: hsl(215, 51%, 70%);
+--Cyan-: hsl(178, 100%, 50%);
+}
+body{
+    background-color: var(--very-dark-bluG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.contenedor{
+    background-color:var(--very-dark-bluE) ;
+    width: 350px;
+    height: 570px;
+    border-radius: 8px;
+    
+}
+.imagen{
+    background-image:url(images/image-equilibrium.jpg);
+    width: 300px;
+    height: 300px;
+    background-size:cover;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    
+}
+.texto{
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+.P1{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 19px;
+}
+
+.P2{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: var(--Soft-blue-SB);
+    font-size: 17px;   
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: 150px 150px 1fr;
+    
+    
+}
+.P3{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: cyan;
+    font-size: 16px;
+    margin-left:  5px;   
+}
+.P4{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: var(--Soft-blue-SB);
+    font-size: 16px;
+    margin-left:  5px;   
+}
+.linea{
+    margin-right: 25px;
+}
+.l{
+    border: 1px solid var(--Soft-blue-SB);
+}
+.imagen2{
+    display: grid;
+    grid-template-columns: 40px 250px 1fr;
+}
+.Perfil{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.P5{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: var(--Soft-blue-SB);
+    font-size: 16px;
+    margin-left:  5px;
+}
+.textof{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+.Jules{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    margin-left:  5px;
+}
+.ttm{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 25px;
+    align-items: center;
+    margin-left: -11px;
+}
+.ttm2{
+    margin-left: 5px;
+    display: flex;
+    justify-content:flex-end;
+    width: 120px;
+    height: 25px;
+    align-items: center;
+}
